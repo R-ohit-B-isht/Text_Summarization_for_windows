@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/n"/>
+    <qresource prefix="/">
+        <file>untitled.txt</file>
+    </qresource>
+</RCC>
