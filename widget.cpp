@@ -59,7 +59,11 @@ void Widget::on_btn_summrize_clicked()
 
 
     //------------------------------------------------------------------
+<<<<<<< Updated upstream
     QDir dirqrc(":/untitled.txt");
+=======
+    QDir dirqrc(":/untitled.py");
+>>>>>>> Stashed changes
     QFile fileqrc(dirqrc.absolutePath());
     if(!fileqrc.open(QIODevice::OpenModeFlag::ReadOnly)){
         QMessageBox::critical(this,"Error",fileqrc.errorString());
@@ -70,7 +74,11 @@ void Widget::on_btn_summrize_clicked()
     fileqrc.close();
 
 
+<<<<<<< Updated upstream
     QDir dirxx("untitled1.pyw");
+=======
+    QDir dirxx("untitled1.py");
+>>>>>>> Stashed changes
     QFile filexx(dirxx.absolutePath());
     if(!filexx.open(QIODevice::OpenModeFlag::WriteOnly|QIODevice::Truncate)){
         QMessageBox::critical(this,"Error",filexx.errorString());
@@ -83,7 +91,11 @@ void Widget::on_btn_summrize_clicked()
 
 
 
+<<<<<<< Updated upstream
         QDir dirpy("untitled1.pyw");
+=======
+        QDir dirpy("untitled1.py");
+>>>>>>> Stashed changes
     std::string pi=dirpy.absolutePath().toStdString()+" "+a.toStdString()+" "+b.toStdString();
     int result = system(pi.c_str());
     qInfo()<<result;

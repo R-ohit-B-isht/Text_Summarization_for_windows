@@ -1,6 +1,10 @@
 <RCC>
     <qresource prefix="/n"/>
     <qresource prefix="/">
+<<<<<<< Updated upstream
         <file>untitled.txt</file>
+=======
+        <file>untitled.py</file>
+>>>>>>> Stashed changes
     </qresource>
 </RCC>
