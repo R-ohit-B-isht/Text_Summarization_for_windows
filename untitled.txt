@@ -166,11 +166,11 @@ for sentence in sent_tokens:
   c=re.findall(r'\s[A-Za-z\s]*\?',sentence)
   noise[sentence]=0
   if len(a)>0:
-    noise[sentence]-=1
+    noise[sentence]=-5
   if len(b)>0:
-    noise[sentence]-=1
+    noise[sentence]=-5
   if len(c)>0:
-    noise[sentence]=-1
+    noise[sentence]=-5
 
 #..................................Feature of more Named Entities in a sentence .....................#
 named_Entities={}
