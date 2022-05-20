@@ -12,14 +12,20 @@ form.
 
 
 
-## Screenshots
-
-![App Screenshot](https://github.com/R-ohit-B-isht/Text_Summarization_for_windows/blob/main/Capture.JPG)
 
 
+
+
+
+
+# Screenshots
+
+1. ![App Screenshot](https://github.com/R-ohit-B-isht/Text_Summarization_for_windows/blob/main/Capture2.JPG)
+2. ![App Screenshot](https://github.com/R-ohit-B-isht/Text_Summarization_for_windows/blob/main/Capture.JPG)
 ## Requirements
-1. Python3
-2. Qt creator (Just build and run the .pro file inside)
+
+    1. Python3
+    2. Qt creator (Just build and run the .pro file inside)
 ## Python Script:
 
 includes:
@@ -50,4 +56,3 @@ includes:
 ## Support
 
 For support, email rbtunes0@gmail.com .
-
