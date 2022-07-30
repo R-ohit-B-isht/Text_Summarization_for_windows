@@ -48,7 +48,7 @@ includes:
  
     9.Named Entities
 
-    10..Prioritising Dates
+    10.Prioritising Dates
 
     11.Implementing Bag Of Words , tf, idf and tf-idf
 
