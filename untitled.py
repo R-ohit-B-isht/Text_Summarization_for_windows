@@ -46,7 +46,7 @@ tfidf = TfidfVectorizer()
 
 
 filename=sys.argv[1]
-f = open((filename))
+f = open(filename,encoding="utf8")
 #print(filename)
 text=f.read() #append each line in the file to a list\n
 f.close()
